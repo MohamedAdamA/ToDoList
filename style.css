@@ -89,6 +89,20 @@ ul li.checked::before{
     content: "";
     background-image: url(images/checked.png);
 }
+.close{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width:40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.close:hover{
+    background: #ff5945; 
+}
 
 
 
